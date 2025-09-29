@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1b52wbst7e3ld5iy2ywokd7kk4366wl4brtvjoli",
+  "Issue Number": "3",
+  "Client": {
+    "Name": "National Weather Service Organization",
+    "Region": "American Samoa",
+    "Industry": "Environment",
+    "Website": "https://www.weather.gov/",
+    "Social Media": "https://cfs.ncep.noaa.gov/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The National Centers for Environmental Prediction (NCEP) is a division of the National Weather Service (NWS) under the National Oceanic and Atmospheric Administration (NOAA) in the United States. NCEP is responsible for providing weather, climate, and environmental forecasts and analyses to support public safety, economic planning, and environmental management. Headquartered in College Park, Maryland, it serves as a critical hub for meteorological and environmental modeling.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Climate Forecast System (CFS) is a model representing the global interaction between Earth's oceans, land, and atmosphere. Produced by several dozen scientists under guidance from the National Centers for Environmental Prediction (NCEP), this model offers hourly data with a horizontal resolution down to one-half of a degree (approximately 56 km) around Earth for many variables. CFS uses the latest scientific approaches for taking in, or assimilating, observations from data sources including surface observations, upper air balloon observations, aircraft observations, and satellite observations.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "1. Download data from AWS S3 (s3://noaa-cfs-pds/) to the data center.\n2. Utilize go-graphsplit to partition the downloaded files into individual CAR files.\n3. Distribute the CAR files to the SPs via physical hard drive transport or HTTP download.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://noaa-cfs-pds.s3.amazonaws.com/index.html\n\naws s3 ls --no-sign-request s3://noaa-cfs-pds/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Greater China",
+    "How will you be distributing your data to storage providers": "Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03644142 Hong Kong\nf03645007 Hong Kong\nf03645883 South Korea\nf03645884 South Korea\nf03645885 Japan\nf03646493 Japan",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4.5PiB",
+    "Single Size Dataset": "751.2 TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-09-29 06:32:34.575009990 UTC",
+    "Validated By": "Acumes",
+    "Active": true,
+    "Updated At": "2025-09-29 06:32:34.575006352 UTC",
+    "Active Request ID": "5dcce008-55b5-4926-b7d5-268150026958",
+    "On Chain Address": "f1b52wbst7e3ld5iy2ywokd7kk4366wl4brtvjoli",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "5dcce008-55b5-4926-b7d5-268150026958",
+      "Request Type": "First",
+      "Created At": "2025-09-28 13:06:11.641747481 UTC",
+      "Updated At": "2025-09-28 13:06:11.641748671 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "Acumes",
+          "Signing Address": "f1u5esna7p5xtslmimnvahmythctziypm4vsxk3qa",
+          "Created At": "2025-09-29 06:32:31.222000000 UTC",
+          "Message CID": "bafy2bzacecjfkpffty2i652ezq2qrhkqdapput5l5hzlzgdkg6gwh5py67wwi"
+        }
+      ]
+    }
+  ]
+}
