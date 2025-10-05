@@ -35,11 +35,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-10-04 13:16:38.519037387 UTC",
+    "State": "Granted",
+    "Validated At": "2025-10-05 03:28:40.852393760 UTC",
     "Validated By": "Acumes",
     "Active": true,
-    "Updated At": "2025-10-04 13:16:38.519040863 UTC",
+    "Updated At": "2025-10-05 03:28:40.852388004 UTC",
     "Active Request ID": "faacb782-b08b-4f54-bd39-94bff54cddb4",
     "On Chain Address": "f1b52wbst7e3ld5iy2ywokd7kk4366wl4brtvjoli",
     "Multisig Address": "false",
@@ -83,9 +83,16 @@
       "Request Type": "Refill",
       "Created At": "2025-10-04 13:16:38.519049487 UTC",
       "Updated At": "2025-10-04 13:16:38.519051176 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1125899906842624B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Acumes",
+          "Signing Address": "f16kohntucf2ittuhhia2uisxvmlxupax7mkmzz6q",
+          "Created At": "2025-10-05 03:28:38.375000000 UTC",
+          "Message CID": "bafy2bzacedxmodbhigdagsjqad3ku47z4wic47ycvnfemccurl6hf7rvqjiua"
+        }
+      ]
     }
   ]
 }
