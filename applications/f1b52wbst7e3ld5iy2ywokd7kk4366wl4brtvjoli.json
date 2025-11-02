@@ -35,7 +35,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-10-20 02:08:04.116736855 UTC",
     "Validated By": "Acumes",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "baa8245c-1c4b-40ae-a972-529f94a63c9b",
     "On Chain Address": "f1b52wbst7e3ld5iy2ywokd7kk4366wl4brtvjoli",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
