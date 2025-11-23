@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-11-23 04:12:34.747332204 UTC",
+    "Validated At": "2025-11-23 04:18:40.794248559 UTC",
     "Validated By": "Acumes",
     "Active": true,
-    "Updated At": "2025-11-23 04:12:34.747327348 UTC",
-    "Active Request ID": "3feae152-a202-4447-8a7d-ee1f7d1ae3ba",
+    "Updated At": "2025-11-23 04:18:40.794247720 UTC",
+    "Active Request ID": "fa61b482-ec1e-4d18-9827-356781aefd3a",
     "On Chain Address": "f1xnn7s7cxwydvgo5kudvnbdwejasvpwlmn2l27aq",
     "Multisig Address": "false",
     "edited": false
@@ -62,6 +62,44 @@
           "Created At": "2025-11-23 04:12:32.344000000 UTC",
           "Message CID": "bafy2bzacecvqdrpua7juxnpucqgaymrzzvlfhxcrrhh66f6eumshafvfogeym",
           "Increase allowance CID": "bafy2bzacecfnxt5ecxgsva3qisevhddehtdrmfrrrxugjvmfpg35vs5kgyf5i"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "3694c554-5dd7-43c0-93e6-0da595106b22",
+      "Created At": "2025-11-23 04:18:40.794231849 UTC",
+      "Updated At": "2025-11-23 04:18:40.794236244 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2827565,
+        2826715,
+        2825420,
+        3663680,
+        3663684,
+        3624256,
+        2827377,
+        2827448
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Acumes",
+          "Signing Address": "f16kohntucf2ittuhhia2uisxvmlxupax7mkmzz6q",
+          "Set Max Deviation CID": "bafy2bzacea4fndr7kwnq73krcti7xn4bcqtlmm54epbmljkxd6azyiqeo6wmw",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebbr6hqsf3hffayrzzoidfsscpqmxgczwok7bgvougihz2wnihmrw": [
+              "2827565",
+              "2826715",
+              "2825420",
+              "3663680",
+              "3663684",
+              "3624256",
+              "2827377",
+              "2827448"
+            ]
+          }
         }
       ]
     }
