@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-11-25 14:03:41.019374725 UTC",
+    "State": "Granted",
+    "Validated At": "2025-11-25 14:06:36.412211238 UTC",
     "Validated By": "Acumes",
     "Active": true,
-    "Updated At": "2025-11-25 14:03:41.019378342 UTC",
+    "Updated At": "2025-11-25 14:06:36.412206513 UTC",
     "Active Request ID": "0175a858-3b46-439c-b973-21322fc1f367",
     "On Chain Address": "f1xnn7s7cxwydvgo5kudvnbdwejasvpwlmn2l27aq",
     "Multisig Address": "false",
@@ -88,9 +88,18 @@
       "Request Type": "Refill",
       "Created At": "2025-11-25 14:03:41.019383915 UTC",
       "Updated At": "2025-11-25 14:03:41.019384565 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "562949953421312B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "562949953421312B",
+      "Signers": [
+        {
+          "Github Username": "Acumes",
+          "Signing Address": "f16kohntucf2ittuhhia2uisxvmlxupax7mkmzz6q",
+          "Created At": "2025-11-25 14:06:33.953000000 UTC",
+          "Message CID": "bafy2bzaceacjme4ag3wjlik5nx6vkkoo55nbgtebjimpzl6i76fpibmjmvqu4",
+          "Increase allowance CID": "bafy2bzacecosvljxsf2l6xbcaub45ymjmdcr6mvuaesnc5dr6io2vjr34k23w"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
